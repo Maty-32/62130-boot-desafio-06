@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    background-color: #1f2023;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    margin: 5px 300px;
+    border-width: 20px;
+    border-color: #4d6d63 #1f2023 #4d6d63 #1f2023;
+    border-style: solid;
+
+}
+
+h1{
+    color: #ffffff;
+    font-family:'Poppins', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 300px;
+    background-color: #d6e2de;
+}
+
+legend{
+    background-color: #4d6d63;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-family:'Roboto', sans-serif;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+#contanos{
+    height: 80px;
+}
+
+input[type="text"],input[type="number"], #nacionalidad{
+    margin: 15px 100px;
+    height: 30px;
+}
+
+.sexo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input[type="radio"]{
+    margin: 5px;
+}
+
+.contacto input::placeholder{
+    text-align: right;
+    color: #90afa9;
+}
+
+.actividades{
+    display: block;
+    text-align: left;
+}
+.opciones{
+    display: flex;
+    flex-direction: row;
+}
+
+.condiciones{
+    display: block;
+    color: #ffffff;
+    margin: 20px 300px;
+    text-align: left;
+}
+
+.condiciones input{
+    margin-bottom: 20px ;
+}
+
+button{
+    font-size: 15px;
+    color: #90afa9;
+    background-color: #2b3d37;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+button:hover{
+    cursor: pointer;
+    padding: 15px;
+}
