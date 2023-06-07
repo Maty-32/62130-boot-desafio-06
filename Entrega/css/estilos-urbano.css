@@ -41,12 +41,14 @@ fieldset {
 select{
     background-color: transparent;
     border: none;
+    font-size: 20px;
     color: #ffffff;
     outline: none;
     border-bottom: 1px solid #adadad;
 }
 option{
     background-color: #757575;
+    font-size: 20px;
 }
 
 div{
@@ -71,18 +73,25 @@ input {
     margin: 5px;
     background-color: transparent;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 20px;
+    height: 30px;
 }
+
 
 select{
     margin: 10px;
 }
 
+p{
+    margin: 0;
+}
+
 .sexo {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 0;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .actividades{
@@ -92,20 +101,21 @@ select{
 
 .actividades div p {
     margin: 5px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .actividades p{
     margin: 5px;
 }
 .contacto input::placeholder{
-    color: #ffffff7e;
+    color: #ffffffb0;
 }
 
 .opciones{
     display: flex;
     flex-direction: row;
-    font-size: 15px;
+    align-items: center;
+    font-size: 18px;
 }
 .condiciones{
     display: block;

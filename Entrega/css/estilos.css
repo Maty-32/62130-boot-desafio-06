@@ -2,6 +2,7 @@ body{
     text-align: center;
     background-color: #1f2023;
     font-family: 'Roboto', sans-serif;
+    font-size: 150%;
 }
 
 header{
@@ -49,6 +50,12 @@ input[type="text"],input[type="number"], #nacionalidad{
     margin: 15px 100px;
     height: 30px;
 }
+input:focus{
+    background-color: #4d6d63;
+}
+fieldset:focus-within{
+    background-color: #a6c1b9;
+}
 
 .sexo{
     display: flex;
@@ -58,8 +65,16 @@ input[type="text"],input[type="number"], #nacionalidad{
     margin-bottom: 30px;
 }
 
+hr{
+    background-color: #4d6d63;
+    border-radius: 20px;
+}
+
 input[type="radio"]{
     margin: 5px;
+}
+select{
+    font-size: 70%;
 }
 
 .contacto input::placeholder{
