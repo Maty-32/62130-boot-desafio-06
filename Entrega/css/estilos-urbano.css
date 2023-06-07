@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 150%;
     background-image: url(../img/fondo-calle-oscura.jpg);
     background-size: cover;
     background-repeat: repeat-x; 
@@ -41,7 +41,7 @@ fieldset {
 select{
     background-color: transparent;
     border: none;
-    font-size: 20px;
+    font-size: 80%;
     color: #ffffff;
     outline: none;
     border-bottom: 1px solid #adadad;
@@ -59,7 +59,6 @@ div{
 legend {
     font-size: 20px;
     padding: 5px;
-/*     border: 2px solid white; */
     border-radius: 5px;
     background-color: #646464d3;
     text-align: left;
@@ -76,7 +75,6 @@ input {
     font-size: 20px;
     height: 30px;
 }
-
 
 select{
     margin: 10px;
@@ -120,9 +118,8 @@ p{
 .condiciones{
     display: block;
     text-align: left;
-    font-size: 12px;
+    font-size: 70%;
 }
-
 
 .botones{
     display: flex;
